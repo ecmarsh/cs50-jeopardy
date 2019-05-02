@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubmittedQuestion/> Errors with a not found question 1`] = `
+<p>
+  Unable to load question.
+</p>
+`;
+
+exports[`<SubmittedQuestion/> renders with submitted data 1`] = `
+<h2>
+  Thanks for submitting!
+</h2>
+`;
+
+exports[`<SubmittedQuestion/> renders with submitted data 2`] = `
+Array [
+  <span
+    className="Utilities__TextEmph-s11g5i-0 jQVwwM"
+  >
+    Time complexity of merge sort?
+  </span>,
+  <span
+    className="Utilities__TextEmph-s11g5i-0 jQVwwM"
+  >
+    n log n
+  </span>,
+  <span
+    style={
+      Object {
+        "padding": "1rem",
+      }
+    }
+  >
+     
+  </span>,
+  <span
+    className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+  >
+    Submitted on:
+     
+    January 4, 2019 4:00 pm
+  </span>,
+]
+`;

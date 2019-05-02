@@ -1,0 +1,22 @@
+{
+  "extends": ["plugin:react/recommended"],
+  "plugins": ["jsx-a11y", "graphql", "react-hooks"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "es6": true,
+      "jsx": true,
+      "impliedStrict": true,
+      "classes": true
+    }
+  },
+  "rules": {
+    "semi": "error",
+    "react/prop-types": "skipUndeclared",
+    "react/react-in-jsx-scope": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}

@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PublicGames/> renders only public games and matches snap 1`] = `
+<form
+  className="Form-qsq7s5-0 bLtDzK"
+  data-test="public-games-form"
+  onSubmit={[Function]}
+>
+  <Utilities__TextEmph>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Utilities__TextEmph-s11g5i-0",
+            "isStatic": false,
+            "lastClassName": "jQVwwM",
+            "rules": Array [
+              "font-weight:bolder;color:",
+              [Function],
+              ";font-size:1.3em;",
+            ],
+          },
+          "displayName": "Utilities__TextEmph",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Utilities__TextEmph-s11g5i-0",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <span
+        className="Utilities__TextEmph-s11g5i-0 jQVwwM"
+      >
+        Start A Study Game
+      </span>
+    </StyledComponent>
+  </Utilities__TextEmph>
+  <fieldset>
+    <label
+      htmlFor="public-games"
+    >
+      <Utilities__TextMuted>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Utilities__TextMuted-s11g5i-2",
+                "isStatic": false,
+                "lastClassName": "bdrBqE",
+                "rules": Array [
+                  "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                ],
+              },
+              "displayName": "Utilities__TextMuted",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+              "target": "span",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <span
+            className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+          >
+            Available Games
+          </span>
+        </StyledComponent>
+      </Utilities__TextMuted>
+      <select
+        autoFocus={true}
+        id="public-games"
+        name="public-games"
+        onChange={[Function]}
+        required={true}
+        style={
+          Object {
+            "textTransform": "capitalize",
+          }
+        }
+        value="Select Game"
+      >
+        <option
+          disabled={true}
+        >
+          Select Game
+        </option>
+        <option
+          key="pubGameID"
+          value="Pubby Game"
+        >
+          Pubby Game
+        </option>
+      </select>
+    </label>
+    <Button
+      primary={true}
+      type="submit"
+    >
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Button-sc-1f1w3gq-0",
+              "isStatic": false,
+              "lastClassName": "jSaPjy",
+              "rules": Array [
+                "font-family:",
+                [Function],
+                ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                [Function],
+                " auto 3px;}",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                [Function],
+                "}",
+                [Function],
+              ],
+            },
+            "displayName": "Button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Button-sc-1f1w3gq-0",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        primary={true}
+        type="submit"
+      >
+        <button
+          className="Button-sc-1f1w3gq-0 jSaPjy"
+          type="submit"
+        >
+          Play Now ▷
+        </button>
+      </StyledComponent>
+    </Button>
+  </fieldset>
+</form>
+`;

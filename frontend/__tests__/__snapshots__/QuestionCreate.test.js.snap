@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuestionCreate/> renders the question submission form 1`] = `
+<form
+  className="Form-qsq7s5-0 bLtDzK"
+  data-test="create-question-form"
+  onSubmit={[Function]}
+>
+  <DisplayError
+    error={Object {}}
+  />
+  <h2>
+    Submit Question
+  </h2>
+  <fieldset
+    aria-busy={false}
+    disabled={false}
+  >
+    <label
+      htmlFor="question"
+    >
+      <textarea
+        autoComplete="off"
+        autoFocus={true}
+        className="isBlank"
+        id="question"
+        maxLength="200"
+        name="question"
+        onChange={[Function]}
+        placeholder="Enter question here"
+        required={true}
+        rows={4}
+        value=""
+      />
+      <Utilities__TextMuted>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Utilities__TextMuted-s11g5i-2",
+                "isStatic": false,
+                "lastClassName": "bdrBqE",
+                "rules": Array [
+                  "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                ],
+              },
+              "displayName": "Utilities__TextMuted",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+              "target": "span",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <span
+            className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+          >
+            Question
+          </span>
+        </StyledComponent>
+      </Utilities__TextMuted>
+    </label>
+    <label
+      htmlFor="answer"
+    >
+      <input
+        autoComplete="off"
+        id="answer"
+        maxLength="50"
+        name="answer"
+        onChange={[Function]}
+        placeholder="Answer"
+        required={true}
+        type="text"
+        value=""
+      />
+      <Utilities__TextMuted>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Utilities__TextMuted-s11g5i-2",
+                "isStatic": false,
+                "lastClassName": "bdrBqE",
+                "rules": Array [
+                  "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                ],
+              },
+              "displayName": "Utilities__TextMuted",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+              "target": "span",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <span
+            className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+          >
+            Answer
+          </span>
+        </StyledComponent>
+      </Utilities__TextMuted>
+    </label>
+    <Button
+      primary={true}
+      type="submit"
+    >
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Button-sc-1f1w3gq-0",
+              "isStatic": false,
+              "lastClassName": "jSaPjy",
+              "rules": Array [
+                "font-family:",
+                [Function],
+                ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                [Function],
+                " auto 3px;}",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                [Function],
+                "}",
+                [Function],
+              ],
+            },
+            "displayName": "Button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Button-sc-1f1w3gq-0",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        primary={true}
+        type="submit"
+      >
+        <button
+          className="Button-sc-1f1w3gq-0 jSaPjy"
+          type="submit"
+        >
+          Submit Question
+        </button>
+      </StyledComponent>
+    </Button>
+  </fieldset>
+</form>
+`;

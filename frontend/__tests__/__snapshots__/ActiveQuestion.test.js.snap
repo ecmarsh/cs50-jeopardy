@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameQuestion /> renders active question and matches snapshot 1`] = `
+<Component
+  active={true}
+>
+  <div
+    className="fullscreen__inner"
+  >
+    <div
+      className="titles"
+    >
+      <div
+        className="titles__inner"
+      >
+        <h3 />
+        <h3>
+          $200
+        </h3>
+      </div>
+      <Utilities__Divider />
+    </div>
+    <div
+      className="main__display"
+    >
+      <Unfocus
+        off={false}
+      >
+        Time complexity of merge sort?
+      </Unfocus>
+    </div>
+    <div
+      className="controls"
+    >
+      <Utilities__Divider />
+      <Shift
+        cName="controls__message"
+      >
+        Which team is answering?
+      </Shift>
+      <div
+        className="controls__ctas"
+      >
+        <Button
+          data-test="cta-button-0"
+          game={true}
+          key="teambutton-0"
+          onClick={[Function]}
+        >
+          Team 
+          Team1
+        </Button>
+        <Button
+          data-test="cta-button-1"
+          game={true}
+          key="teambutton-1"
+          onClick={[Function]}
+        >
+          Team 
+          Team2
+        </Button>
+      </div>
+    </div>
+  </div>
+</Component>
+`;

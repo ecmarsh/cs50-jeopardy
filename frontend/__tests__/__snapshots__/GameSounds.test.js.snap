@@ -1,0 +1,1393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameSounds /> renders soundbar and matches snap with sound ON 1`] = `
+<div
+  className="right Controls__ActionBar-gl2mht-0 tBdrO"
+  data-test="game-sound-bar"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "right": "10rem",
+      "transform": "translate3d(100%,0,0)",
+    }
+  }
+>
+  <div
+    className="bar-icon"
+  >
+    <img
+      alt="game-control-icon--sound"
+      src="../static/sounds-icon--on.png"
+    />
+  </div>
+  <div
+    className="inner"
+  >
+    <span
+      key="sound0"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "loddAm",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Aww
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound1"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "loddAm",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Clap
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound2"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "loddAm",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Correct
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound3"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "loddAm",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Daily Double
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound4"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "loddAm",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Fill Board
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound5"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "loddAm",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Final Jeopardy
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound6"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "loddAm",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Thinking
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound7"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "loddAm",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Times Up
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound8"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "loddAm",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Wrong
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <ToggleSoundButton
+      soundOn={true}
+    >
+      <Mutation
+        mutation={
+          Object {
+            "definitions": Array [
+              Object {
+                "directives": Array [],
+                "kind": "OperationDefinition",
+                "name": undefined,
+                "operation": "mutation",
+                "selectionSet": Object {
+                  "kind": "SelectionSet",
+                  "selections": Array [
+                    Object {
+                      "alias": undefined,
+                      "arguments": Array [],
+                      "directives": Array [
+                        Object {
+                          "arguments": Array [],
+                          "kind": "Directive",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "client",
+                          },
+                        },
+                      ],
+                      "kind": "Field",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "toggleSound",
+                      },
+                      "selectionSet": undefined,
+                    },
+                  ],
+                },
+                "variableDefinitions": Array [],
+              },
+            ],
+            "kind": "Document",
+            "loc": Object {
+              "end": 42,
+              "start": 0,
+            },
+          }
+        }
+      >
+        <Button
+          className="button--sound"
+          on={true}
+          onClick={[Function]}
+          tertiary={true}
+        >
+          <StyledComponent
+            className="button--sound"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Button-sc-1f1w3gq-0",
+                  "isStatic": false,
+                  "lastClassName": "loddAm",
+                  "rules": Array [
+                    "font-family:",
+                    [Function],
+                    ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                    [Function],
+                    " auto 3px;}",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                    [Function],
+                    "}",
+                    [Function],
+                  ],
+                },
+                "displayName": "Button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Button-sc-1f1w3gq-0",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            on={true}
+            onClick={[Function]}
+            tertiary={true}
+          >
+            <button
+              className="button--sound Button-sc-1f1w3gq-0 loddAm"
+              onClick={[Function]}
+            >
+              AUTOPLAY
+            </button>
+          </StyledComponent>
+        </Button>
+      </Mutation>
+    </ToggleSoundButton>
+  </div>
+</div>
+`;
+
+exports[`<GameSounds /> renders soundbar and matches snapshot with sound OFF 1`] = `
+<div
+  className="right Controls__ActionBar-gl2mht-0 tBdrO"
+  data-test="game-sound-bar"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "right": "10rem",
+      "transform": "translate3d(100%,0,0)",
+    }
+  }
+>
+  <div
+    className="bar-icon"
+  >
+    <img
+      alt="game-control-icon--sound"
+      src="../static/sounds-icon.png"
+    />
+  </div>
+  <div
+    className="inner"
+  >
+    <span
+      key="sound0"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "kpEvwZ",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Aww
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound1"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "kpEvwZ",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Clap
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound2"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "kpEvwZ",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Correct
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound3"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "kpEvwZ",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Daily Double
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound4"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "kpEvwZ",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Fill Board
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound5"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "kpEvwZ",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Final Jeopardy
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound6"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "kpEvwZ",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Thinking
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound7"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "kpEvwZ",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Times Up
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <span
+      key="sound8"
+    >
+      <Button
+        onClick={[Function]}
+        playing={false}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "kpEvwZ",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          playing={false}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Wrong
+          </button>
+        </StyledComponent>
+      </Button>
+    </span>
+    <ToggleSoundButton
+      soundOn={false}
+    >
+      <Mutation
+        mutation={
+          Object {
+            "definitions": Array [
+              Object {
+                "directives": Array [],
+                "kind": "OperationDefinition",
+                "name": undefined,
+                "operation": "mutation",
+                "selectionSet": Object {
+                  "kind": "SelectionSet",
+                  "selections": Array [
+                    Object {
+                      "alias": undefined,
+                      "arguments": Array [],
+                      "directives": Array [
+                        Object {
+                          "arguments": Array [],
+                          "kind": "Directive",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "client",
+                          },
+                        },
+                      ],
+                      "kind": "Field",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "toggleSound",
+                      },
+                      "selectionSet": undefined,
+                    },
+                  ],
+                },
+                "variableDefinitions": Array [],
+              },
+            ],
+            "kind": "Document",
+            "loc": Object {
+              "end": 42,
+              "start": 0,
+            },
+          }
+        }
+      >
+        <Button
+          className="button--sound"
+          on={false}
+          onClick={[Function]}
+          tertiary={true}
+        >
+          <StyledComponent
+            className="button--sound"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Button-sc-1f1w3gq-0",
+                  "isStatic": false,
+                  "lastClassName": "kpEvwZ",
+                  "rules": Array [
+                    "font-family:",
+                    [Function],
+                    ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                    [Function],
+                    " auto 3px;}",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                    [Function],
+                    "}",
+                    [Function],
+                  ],
+                },
+                "displayName": "Button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Button-sc-1f1w3gq-0",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            on={false}
+            onClick={[Function]}
+            tertiary={true}
+          >
+            <button
+              className="button--sound Button-sc-1f1w3gq-0 kpEvwZ"
+              onClick={[Function]}
+            >
+              AUTOPLAY
+            </button>
+          </StyledComponent>
+        </Button>
+      </Mutation>
+    </ToggleSoundButton>
+  </div>
+</div>
+`;

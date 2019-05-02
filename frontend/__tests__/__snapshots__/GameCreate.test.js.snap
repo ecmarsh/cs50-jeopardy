@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameCreate /> renders game create form and matches snapshot 1`] = `
+<form
+  className="Form-qsq7s5-0 bLtDzK"
+  data-test="create-game-form"
+  onSubmit={[Function]}
+>
+  <DisplayError
+    error={Object {}}
+  />
+  <h2>
+    Create New Game
+  </h2>
+  <fieldset
+    aria-busy={false}
+    disabled={false}
+  >
+    <label
+      htmlFor="gameName"
+    >
+      <input
+        autoComplete="off"
+        id="gameName"
+        name="gameName"
+        onChange={[Function]}
+        placeholder="Game Name"
+        required={true}
+        type="text"
+        value=""
+      />
+      <Utilities__TextMuted>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Utilities__TextMuted-s11g5i-2",
+                "isStatic": false,
+                "lastClassName": "kHcKTC",
+                "rules": Array [
+                  "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                ],
+              },
+              "displayName": "Utilities__TextMuted",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+              "target": "span",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <span
+            className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+          >
+            Game Name
+          </span>
+        </StyledComponent>
+      </Utilities__TextMuted>
+    </label>
+    <Button
+      primary={true}
+      type="submit"
+    >
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Button-sc-1f1w3gq-0",
+              "isStatic": false,
+              "lastClassName": "jSaPjy",
+              "rules": Array [
+                "font-family:",
+                [Function],
+                ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                [Function],
+                " auto 3px;}",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                [Function],
+                "}",
+                [Function],
+              ],
+            },
+            "displayName": "Button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Button-sc-1f1w3gq-0",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        primary={true}
+        type="submit"
+      >
+        <button
+          className="Button-sc-1f1w3gq-0 jSaPjy"
+          type="submit"
+        >
+          Create Game
+        </button>
+      </StyledComponent>
+    </Button>
+    <Utilities__TextMuted
+      smaller={true}
+      style={
+        Object {
+          "marginTop": "2.5rem",
+        }
+      }
+    >
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Utilities__TextMuted-s11g5i-2",
+              "isStatic": false,
+              "lastClassName": "kHcKTC",
+              "rules": Array [
+                "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+              ],
+            },
+            "displayName": "Utilities__TextMuted",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        smaller={true}
+        style={
+          Object {
+            "marginTop": "2.5rem",
+          }
+        }
+      >
+        <span
+          className="Utilities__TextMuted-s11g5i-2 kHcKTC"
+          style={
+            Object {
+              "marginTop": "2.5rem",
+            }
+          }
+        >
+          Please note it may take a minute to setup your new game.
+        </span>
+      </StyledComponent>
+    </Utilities__TextMuted>
+  </fieldset>
+</form>
+`;

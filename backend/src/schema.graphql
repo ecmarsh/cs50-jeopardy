@@ -1,0 +1,100 @@
+# import * from "./generated/prisma.graphql"
+
+type SuccessMessage {
+  message: String
+}
+
+type Mutation {
+  createCategory(name: String!, game: String!, questionsCount: Int): Category!
+  createGame(name: String!): Game!
+  createQuestion(
+    question: String!
+    answer: String!
+    gameName: String!
+  ): Question
+  createStudyGame(
+    answeredQuestions: [CategoryQuestionWhereUniqueInput!]!
+    game: String!
+    score: Int
+  ): StudyGame!
+  createTeam(name: String!, score: Int, game: String!): Team!
+  deleteGame(name: String!): Game
+  deleteQuestion(id: ID!): Question
+  deleteStudyGame(id: ID!): StudyGame
+  publishGame(game: String!, isPublic: Boolean): Game
+  removeFromCategory(id: ID!): CategoryQuestion!
+  resetGame(name: String!): Game
+  requestReset(email: String!): SuccessMessage
+  resetPassword(
+    resetToken: String!
+    password: String!
+    confirmPassword: String!
+  ): User!
+  signin(email: String!, password: String!): User!
+  signout: SuccessMessage
+  signup(
+    email: String!
+    password: String!
+    name: String!
+    access: String!
+  ): User!
+  updateAnsweredQuestion(id: ID!, answered: Boolean): CategoryQuestion
+  updateCategory(id: ID!, name: String): Category!
+  updateGameConfig(
+    id: ID!
+    hasDoubleJeopardy: Boolean
+    hasRoundTimer: Boolean
+    roundTime: Int
+    finalTime: Int
+  ): GameConfig
+  updateDoubleJeopardy(
+    gameName: String!
+    hasDoubleJeopardy: Boolean
+  ): [CategoryQuestion]
+  updateCategoryQuestion(id: ID!, questionId: ID!): CategoryQuestion!
+  updatePermissions(permissions: [Permission], userId: ID!): User
+  updateQuestion(id: ID!, question: String, answer: String): Question!
+  updateTeam(id: ID!, name: String): Team!
+  updateTeamScore(id: ID!, score: Int): Team!
+}
+
+type Query {
+  # Queries forwarded to db
+  category(where: CategoryWhereUniqueInput): Category
+  categories(
+    where: CategoryWhereInput
+    first: Int
+    skip: Int
+    after: String
+    orderBy: CategoryOrderByInput
+  ): [Category]!
+  categoriesConnection(where: CategoryWhereInput): CategoryConnection!
+  categoryQuestion(where: CategoryQuestionWhereUniqueInput!): CategoryQuestion
+  categoryQuestions(where: CategoryQuestionWhereInput): [CategoryQuestion]!
+  categoryQuestionsConnection(
+    where: CategoryQuestionWhereInput
+  ): CategoryQuestionConnection!
+  games: [Game]!
+  question(where: QuestionWhereUniqueInput!): Question
+  questions(
+    where: QuestionWhereInput
+    orderBy: QuestionOrderByInput
+  ): [Question]!
+  questionsConnection(where: QuestionWhereInput): QuestionConnection!
+  teams(where: TeamWhereInput!): [Team!]!
+  # Custom queries
+  me: User
+  users: [User]!
+  game(name: String): Game
+  myGames: [Game]!
+  studyGame(where: StudyGameWhereUniqueInput!): StudyGame!
+  studyGames(orderBy: QuestionOrderByInput): [StudyGame]!
+}
+
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  permissions: [Permission!]!
+  games: [Game]!
+}

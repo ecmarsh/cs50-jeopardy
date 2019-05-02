@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UpdateTeamScores /> renders team scoreboard and matches snapshot 1`] = `
+<Scoreboard>
+  <Scoreboard__TeamContainer
+    chosen={true}
+    key="t1"
+    prevChosen={false}
+  >
+    <p
+      className="team-label"
+    >
+      Team1
+    </p>
+    <Tally
+      key="1000-0"
+      score={1000}
+    />
+  </Scoreboard__TeamContainer>
+  <Scoreboard__TeamContainer
+    chosen={false}
+    key="t2"
+    prevChosen={true}
+  >
+    <p
+      className="team-label"
+    >
+      Team2
+    </p>
+    <Tally
+      key="1000-1"
+      score={1000}
+    />
+  </Scoreboard__TeamContainer>
+</Scoreboard>
+`;

@@ -1,0 +1,574 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FinalJeopardy /> renders countdown when enabled and matches snap 1`] = `
+<RoundTimer
+  finalTime={30}
+  gameName="Test Game"
+  key="timerfinal"
+  nextStage={[Function]}
+  round={3}
+  roundTime={0}
+>
+  <Timer__StyledTimer
+    final={true}
+  >
+    <StyledComponent
+      final={true}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Timer__StyledTimer-blbssp-0",
+            "isStatic": false,
+            "lastClassName": "cmzUqk",
+            "rules": Array [
+              "color:",
+              [Function],
+              ";position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%);",
+              [Function],
+              " span{color:",
+              [Function],
+              ";margin-left:1rem;font-size:1.1em;}",
+            ],
+          },
+          "displayName": "Timer__StyledTimer",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Timer__StyledTimer-blbssp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="Timer__StyledTimer-blbssp-0 cmzUqk"
+      >
+        <Countdown
+          animationTime={30}
+          round={3}
+          timeRemaining={30}
+        >
+          <Countdown__StyledCountdown
+            animationTime={30}
+            large={true}
+            vb={8}
+          >
+            <StyledComponent
+              animationTime={30}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Countdown__StyledCountdown-sc-7rbb8p-0",
+                    "isStatic": false,
+                    "lastClassName": "ljprAI",
+                    "rules": Array [
+                      "position:relative;margin:auto;height:",
+                      [Function],
+                      "rem;width:",
+                      [Function],
+                      "rem;text-align:center;border-radius:100%;box-shadow:0 0 1rem 3px rgba(255,255,255,0.4);.countdown__number{color:white;display:block;line-height:",
+                      [Function],
+                      "rem;position:absolute;top:0;left:50%;transform:translateX(-50%);font-size:",
+                      [Function],
+                      "rem;z-index:999;}svg{position:absolute;top:0;right:0;width:",
+                      [Function],
+                      "rem;height:",
+                      [Function],
+                      "rem;fill:none;transform:rotateY(-180deg) rotateZ(-90deg);}svg circle{stroke-linecap:butt;stroke-width:4px;stroke:",
+                      [Function],
+                      ";stroke-dasharray:",
+                      [Function],
+                      ";stroke-dashoffset:0px;}",
+                      [Function],
+                      " ",
+                      [Function],
+                    ],
+                  },
+                  "displayName": "Countdown__StyledCountdown",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Countdown__StyledCountdown-sc-7rbb8p-0",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              large={true}
+              vb={8}
+            >
+              <div
+                className="Countdown__StyledCountdown-sc-7rbb8p-0 ljprAI"
+              >
+                <div
+                  className="countdown__number"
+                >
+                  30
+                </div>
+                <svg>
+                  <circle
+                    cx="50%"
+                    cy="50%"
+                    r={38}
+                  />
+                </svg>
+              </div>
+            </StyledComponent>
+          </Countdown__StyledCountdown>
+        </Countdown>
+      </div>
+    </StyledComponent>
+  </Timer__StyledTimer>
+</RoundTimer>
+`;
+
+exports[`<FinalJeopardy /> renders final jeopardy form and matches snapshot 1`] = `
+<FinalJeopardy
+  category={
+    Object {
+      "__typename": "Category",
+      "id": "cat123",
+      "name": "animi",
+    }
+  }
+  config={
+    Object {
+      "__typename": "GameConfig",
+      "finalTime": 0,
+      "hasDoubleJeopardy": false,
+      "hasRoundTimer": false,
+      "id": "config123",
+      "roundTime": 0,
+    }
+  }
+  gameName="Test Game"
+  teams={
+    Array [
+      Object {
+        "__typename": "Team",
+        "game": Object {
+          "id": "g@m3",
+          "name": "Test Game",
+        },
+        "id": "t1",
+        "name": "Team1",
+        "score": 1000,
+      },
+      Object {
+        "__typename": "Team",
+        "game": Object {
+          "id": "g@m3",
+          "name": "Test Game",
+        },
+        "id": "t2",
+        "name": "Team2",
+        "score": 1000,
+      },
+    ]
+  }
+  toggleChosenTeam={[MockFunction]}
+>
+  <Cover
+    style={
+      Object {
+        "height": "100%",
+        "position": "relative",
+        "top": "5px",
+        "transform": "translateX(-50%)",
+        "width": "100%",
+      }
+    }
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Cover-urqkfw-0",
+            "isStatic": false,
+            "lastClassName": "fCxfBD",
+            "rules": Array [
+              "position:fixed;top:9.5rem;left:50%;z-index:1000;width:100%;transform-origin:left;box-shadow:0px 0rem 6px 4px rgba(0,0,0,0.6);max-width:",
+              [Function],
+              ";margin:0 auto;height:calc(100vh - 17rem);background-color:",
+              [Function],
+              ";color:",
+              [Function],
+              ";background-image:linear-gradient( 45deg,",
+              [Function],
+              " 15%,",
+              [Function],
+              " 50%,",
+              [Function],
+              " 95%,",
+              [Function],
+              " );.fullscreen__inner{height:100%;display:grid;grid-template-rows:fit-content(15%) auto fit-content(10%);grid-template-columns:10% 80% 10%;grid-auto-flow:row;}.titles{grid-row:1 / 2;grid-column:2 / 3;align-self:end;&__inner{margin-top:2rem;font-size:1.5em;display:flex;justify-content:space-around;align-items:center;h3{line-height:1.2;color:#ffdb6d;}}}.main__display{align-self:center;grid-row:2 / 3;grid-column:2 / 3;h1{font-size:6vw;}.question,.answer{font-size:4.5vh;padding:1rem 8%;line-height:1.3;letter-spacing:2px;text-transform:uppercase;&--unfocused{padding-bottom:3rem;text-transform:uppercase;line-height:1.1;}&--mounted{font-size:3.5vh;}}.other{font-size:4vh;span{font-weight:bolder;letter-spacing:2px;}}.prompt{font-size:3vh;font-style:italic;color:",
+              [Function],
+              ";}.answer{color:",
+              [Function],
+              ";}.congrats{line-height:1.5;letter-spacing:2px;font-size:6vh;}}.controls{grid-row:3 / 4;grid-column:2 / 3;margin-bottom:2rem;font-size:1.5em;&__ctas{display:flex;width:50%;padding:1rem 0;align-items:center;justify-content:space-around;margin:0 auto;}&__message{color:",
+              [Function],
+              ";font-style:italic;}}",
+            ],
+          },
+          "displayName": "Cover",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Cover-urqkfw-0",
+          "target": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      style={
+        Object {
+          "height": "100%",
+          "position": "relative",
+          "top": "5px",
+          "transform": "translateX(-50%)",
+          "width": "100%",
+        }
+      }
+    >
+      <ForwardRef
+        className="Cover-urqkfw-0 fCxfBD"
+        style={
+          Object {
+            "height": "100%",
+            "position": "relative",
+            "top": "5px",
+            "transform": "translateX(-50%)",
+            "width": "100%",
+          }
+        }
+      >
+        <div
+          className="Cover-urqkfw-0 fCxfBD"
+          style={
+            Object {
+              "height": "100%",
+              "position": "relative",
+              "top": "5px",
+              "transform": "translateX(-50%)",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="fullscreen__inner"
+          >
+            <div
+              className="titles"
+            >
+              <div
+                className="titles__inner"
+              >
+                <h3>
+                  animi
+                </h3>
+              </div>
+              <Utilities__Divider>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Utilities__Divider-s11g5i-5",
+                        "isStatic": true,
+                        "lastClassName": "jrubw",
+                        "rules": Array [
+                          "width:80%;opacity:0.5;margin:1rem auto;",
+                        ],
+                      },
+                      "displayName": "Utilities__Divider",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Utilities__Divider-s11g5i-5",
+                      "target": "hr",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <hr
+                    className="Utilities__Divider-s11g5i-5 jrubw"
+                  />
+                </StyledComponent>
+              </Utilities__Divider>
+            </div>
+            <TeamWagers
+              nextStage={[Function]}
+              setWagers={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "__typename": "Team",
+                    "game": Object {
+                      "id": "g@m3",
+                      "name": "Test Game",
+                    },
+                    "id": "t1",
+                    "name": "Team1",
+                    "score": 1000,
+                  },
+                  Object {
+                    "__typename": "Team",
+                    "game": Object {
+                      "id": "g@m3",
+                      "name": "Test Game",
+                    },
+                    "id": "t2",
+                    "name": "Team2",
+                    "score": 1000,
+                  },
+                ]
+              }
+            >
+              <div
+                className="main__display"
+              >
+                <Wagers__WagerInputs>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Wagers__WagerInputs-sc-1tb6h8w-0",
+                          "isStatic": false,
+                          "lastClassName": "bKaJba",
+                          "rules": Array [
+                            "background-color:white;color:black;padding:3rem;font-size:2rem;min-width:50rem;max-width:60rem;margin:0 auto;label{padding:1rem 20%;display:flex;justify-content:space-between;align-items:center;span{font-size:0.8em;color:",
+                            [Function],
+                            ";}}input{padding:1rem;width:8rem;font-size:1.5rem;color:",
+                            [Function],
+                            ";&:focus{outline-color:",
+                            [Function],
+                            ";}}.disclaimer{color:",
+                            [Function],
+                            ";font-size:italic;font-size:0.9em;margin-top:1rem;&.smaller{font-size:0.8em;}}",
+                          ],
+                        },
+                        "displayName": "Wagers__WagerInputs",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Wagers__WagerInputs-sc-1tb6h8w-0",
+                        "target": "fieldset",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <fieldset
+                      className="Wagers__WagerInputs-sc-1tb6h8w-0 bKaJba"
+                    >
+                      <Utilities__TextEmph>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Utilities__TextEmph-s11g5i-0",
+                                "isStatic": false,
+                                "lastClassName": "jQVwwM",
+                                "rules": Array [
+                                  "font-weight:bolder;color:",
+                                  [Function],
+                                  ";font-size:1.3em;",
+                                ],
+                              },
+                              "displayName": "Utilities__TextEmph",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Utilities__TextEmph-s11g5i-0",
+                              "target": "span",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <span
+                            className="Utilities__TextEmph-s11g5i-0 jQVwwM"
+                          >
+                            Choose Final Wagers
+                          </span>
+                        </StyledComponent>
+                      </Utilities__TextEmph>
+                      <label
+                        htmlFor="wager0"
+                        key="wager-0"
+                      >
+                        Team1
+                        <span>
+                          $
+                           
+                          <input
+                            max={1000}
+                            min={0}
+                            name="wager0"
+                            onChange={[Function]}
+                            onKeyUp={[Function]}
+                            required={true}
+                            step={100}
+                            type="number"
+                            value={0}
+                          />
+                        </span>
+                      </label>
+                      <label
+                        htmlFor="wager1"
+                        key="wager-1"
+                      >
+                        Team2
+                        <span>
+                          $
+                           
+                          <input
+                            max={1000}
+                            min={0}
+                            name="wager1"
+                            onChange={[Function]}
+                            onKeyUp={[Function]}
+                            required={true}
+                            step={100}
+                            type="number"
+                            value={0}
+                          />
+                        </span>
+                      </label>
+                      <p
+                        className="disclaimer"
+                      >
+                        You may have to write down your team
+                        '
+                        s answer
+                      </p>
+                      <p
+                        className="disclaimer smaller"
+                      >
+                        ...And cover your eyes for the other teams wager 🙈
+                      </p>
+                    </fieldset>
+                  </StyledComponent>
+                </Wagers__WagerInputs>
+              </div>
+              <div
+                className="controls"
+              >
+                <Utilities__Divider>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Utilities__Divider-s11g5i-5",
+                          "isStatic": true,
+                          "lastClassName": "jrubw",
+                          "rules": Array [
+                            "width:80%;opacity:0.5;margin:1rem auto;",
+                          ],
+                        },
+                        "displayName": "Utilities__Divider",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Utilities__Divider-s11g5i-5",
+                        "target": "hr",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <hr
+                      className="Utilities__Divider-s11g5i-5 jrubw"
+                    />
+                  </StyledComponent>
+                </Utilities__Divider>
+                <Button
+                  game={true}
+                  onClick={[Function]}
+                >
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Button-sc-1f1w3gq-0",
+                          "isStatic": false,
+                          "lastClassName": "gfKOtE",
+                          "rules": Array [
+                            "font-family:",
+                            [Function],
+                            ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                            [Function],
+                            " auto 3px;}",
+                            [Function],
+                            " ",
+                            [Function],
+                            " ",
+                            [Function],
+                            " ",
+                            [Function],
+                            " ",
+                            [Function],
+                            " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                            [Function],
+                            "}",
+                            [Function],
+                          ],
+                        },
+                        "displayName": "Button",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Button-sc-1f1w3gq-0",
+                        "target": "button",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    game={true}
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="Button-sc-1f1w3gq-0 gfKOtE"
+                      onClick={[Function]}
+                    >
+                      Start Final Round
+                    </button>
+                  </StyledComponent>
+                </Button>
+              </div>
+            </TeamWagers>
+          </div>
+        </div>
+      </ForwardRef>
+    </StyledComponent>
+  </Cover>
+</FinalJeopardy>
+`;

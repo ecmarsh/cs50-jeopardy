@@ -1,0 +1,95 @@
+enum Permission {
+  ADMIN
+  USER
+  QUESTIONCREATE
+  QUESTIONUPDATE
+  PERMISSIONUPDATE
+}
+
+type User {
+  id: ID! @unique
+  name: String!
+  email: String! @unique
+  password: String!
+  resetToken: String
+  resetTokenExpiry: String
+  permissions: [Permission!]! @scalarList(strategy: RELATION)
+  games: [Game]! @scalarList(strategy: RELATION)
+  updatedAt: DateTime! @updatedAt
+  createdAt: DateTime! @createdAt
+}
+
+type Question {
+  id: ID! @unique
+  question: String!
+  answer: String!
+  createdAt: DateTime! @createdAt
+  user: User!
+  game: Game!
+  categoryQuestions: [CategoryQuestion]!
+  updatedAt: DateTime! @updatedAt
+}
+
+type Game {
+  id: ID! @unique
+  name: String! @unique
+  user: User!
+  createdAt: DateTime! @createdAt
+  isPublic: Boolean
+  teams: [Team!]!
+  categories: [Category]!
+  questions: [Question]!
+  categoryQuestions: [CategoryQuestion]!
+  config: GameConfig
+  updatedAt: DateTime! @updatedAt
+}
+
+type GameConfig {
+  id: ID! @unique
+  game: Game
+  hasDoubleJeopardy: Boolean @default(value: false)
+  hasRoundTimer: Boolean @default(value: false)
+  roundTime: Int @default(value: 0)
+  finalTime: Int @default(value: 0)
+  updatedAt: DateTime! @updatedAt
+  createdAt: DateTime! @createdAt
+}
+
+type Category {
+  id: ID! @unique
+  name: String!
+  game: Game!
+  categoryQuestions: [CategoryQuestion]!
+  updatedAt: DateTime! @updatedAt
+  createdAt: DateTime! @createdAt
+}
+
+type CategoryQuestion {
+  id: ID! @unique
+  difficulty: Int!
+  question: Question
+  category: Category!
+  game: Game!
+  isDouble: Boolean! @default(value: false)
+  answered: Boolean! @default(value: false)
+  updatedAt: DateTime! @updatedAt
+  createdAt: DateTime! @createdAt
+}
+
+type Team {
+  id: ID! @unique
+  name: String!
+  score: Int
+  game: Game!
+  updatedAt: DateTime! @updatedAt
+  createdAt: DateTime! @createdAt
+}
+
+type StudyGame {
+  id: ID! @unique
+  answeredQuestions: [CategoryQuestion]!
+  score: Int!
+  game: Game!
+  user: User!
+  createdAt: DateTime! @createdAt
+}

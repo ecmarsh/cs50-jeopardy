@@ -1,0 +1,9 @@
+#endpoint: ${env:PRISMA_ENDPOINT}
+#endpoint: https://us1.prisma.sh/ethan-marsh-5ef3b2/cs50-jeopardy/dev
+#endpoint: https://cs50-jeopardy-prod-42656194a0.herokuapp.com/cs50-jeopardy-prod/prod
+endpoint: https://cs50-jeopardy-prod-42656194a0.herokuapp.com/cs50-jeopardy-prod/prod
+datamodel: datamodel.prisma
+secret: ${env:PRISMA_SECRET}
+hooks:
+  post-deploy:
+    - graphql get-schema -p prisma

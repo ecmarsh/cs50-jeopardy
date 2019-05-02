@@ -1,0 +1,1155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CategoryNames /> renders edit categories form and matches snapshot 1`] = `
+<form
+  className="noBg Form-qsq7s5-0 bLtDzK"
+  data-test="category-names-form"
+  onSubmit={[Function]}
+>
+  <h2>
+    Category Names
+  </h2>
+  <DisplayError
+    error={Object {}}
+  />
+  <fieldset
+    aria-busy={false}
+    disabled={false}
+  >
+    <div
+      key="cat-1"
+    >
+      <h4>
+        Single Jeopardy
+      </h4>
+      <label
+        htmlFor="category-0"
+        style={
+          Object {
+            "flexDirection": "row",
+            "width": "100%",
+          }
+        }
+      >
+        <Utilities__TextMuted
+          style={
+            Object {
+              "flexBasis": "25%",
+              "textAlign": "center",
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Utilities__TextMuted-s11g5i-2",
+                  "isStatic": false,
+                  "lastClassName": "biOppA",
+                  "rules": Array [
+                    "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                  ],
+                },
+                "displayName": "Utilities__TextMuted",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={
+              Object {
+                "flexBasis": "25%",
+                "textAlign": "center",
+              }
+            }
+          >
+            <span
+              className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+              style={
+                Object {
+                  "flexBasis": "25%",
+                  "textAlign": "center",
+                }
+              }
+            >
+              CATEGORY 
+              1
+              :
+            </span>
+          </StyledComponent>
+        </Utilities__TextMuted>
+        <input
+          id="cat-1"
+          name="category-0"
+          onChange={[Function]}
+          style={
+            Object {
+              "flexBasis": "60%",
+              "width": "auto",
+            }
+          }
+          type="text"
+          value="omnis"
+        />
+      </label>
+    </div>
+    <div
+      key="cat-2"
+    >
+      <label
+        htmlFor="category-1"
+        style={
+          Object {
+            "flexDirection": "row",
+            "width": "100%",
+          }
+        }
+      >
+        <Utilities__TextMuted
+          style={
+            Object {
+              "flexBasis": "25%",
+              "textAlign": "center",
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Utilities__TextMuted-s11g5i-2",
+                  "isStatic": false,
+                  "lastClassName": "biOppA",
+                  "rules": Array [
+                    "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                  ],
+                },
+                "displayName": "Utilities__TextMuted",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={
+              Object {
+                "flexBasis": "25%",
+                "textAlign": "center",
+              }
+            }
+          >
+            <span
+              className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+              style={
+                Object {
+                  "flexBasis": "25%",
+                  "textAlign": "center",
+                }
+              }
+            >
+              CATEGORY 
+              2
+              :
+            </span>
+          </StyledComponent>
+        </Utilities__TextMuted>
+        <input
+          id="cat-2"
+          name="category-1"
+          onChange={[Function]}
+          style={
+            Object {
+              "flexBasis": "60%",
+              "width": "auto",
+            }
+          }
+          type="text"
+          value="nesciunt"
+        />
+      </label>
+    </div>
+    <div
+      key="cat-3"
+    >
+      <label
+        htmlFor="category-2"
+        style={
+          Object {
+            "flexDirection": "row",
+            "width": "100%",
+          }
+        }
+      >
+        <Utilities__TextMuted
+          style={
+            Object {
+              "flexBasis": "25%",
+              "textAlign": "center",
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Utilities__TextMuted-s11g5i-2",
+                  "isStatic": false,
+                  "lastClassName": "biOppA",
+                  "rules": Array [
+                    "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                  ],
+                },
+                "displayName": "Utilities__TextMuted",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={
+              Object {
+                "flexBasis": "25%",
+                "textAlign": "center",
+              }
+            }
+          >
+            <span
+              className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+              style={
+                Object {
+                  "flexBasis": "25%",
+                  "textAlign": "center",
+                }
+              }
+            >
+              CATEGORY 
+              3
+              :
+            </span>
+          </StyledComponent>
+        </Utilities__TextMuted>
+        <input
+          id="cat-3"
+          name="category-2"
+          onChange={[Function]}
+          style={
+            Object {
+              "flexBasis": "60%",
+              "width": "auto",
+            }
+          }
+          type="text"
+          value="occaecati"
+        />
+      </label>
+    </div>
+    <div
+      key="cat-4"
+    >
+      <label
+        htmlFor="category-3"
+        style={
+          Object {
+            "flexDirection": "row",
+            "width": "100%",
+          }
+        }
+      >
+        <Utilities__TextMuted
+          style={
+            Object {
+              "flexBasis": "25%",
+              "textAlign": "center",
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Utilities__TextMuted-s11g5i-2",
+                  "isStatic": false,
+                  "lastClassName": "biOppA",
+                  "rules": Array [
+                    "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                  ],
+                },
+                "displayName": "Utilities__TextMuted",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={
+              Object {
+                "flexBasis": "25%",
+                "textAlign": "center",
+              }
+            }
+          >
+            <span
+              className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+              style={
+                Object {
+                  "flexBasis": "25%",
+                  "textAlign": "center",
+                }
+              }
+            >
+              CATEGORY 
+              4
+              :
+            </span>
+          </StyledComponent>
+        </Utilities__TextMuted>
+        <input
+          id="cat-4"
+          name="category-3"
+          onChange={[Function]}
+          style={
+            Object {
+              "flexBasis": "60%",
+              "width": "auto",
+            }
+          }
+          type="text"
+          value="assumenda"
+        />
+      </label>
+    </div>
+    <div
+      key="cat-5"
+    >
+      <label
+        htmlFor="category-4"
+        style={
+          Object {
+            "flexDirection": "row",
+            "width": "100%",
+          }
+        }
+      >
+        <Utilities__TextMuted
+          style={
+            Object {
+              "flexBasis": "25%",
+              "textAlign": "center",
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Utilities__TextMuted-s11g5i-2",
+                  "isStatic": false,
+                  "lastClassName": "biOppA",
+                  "rules": Array [
+                    "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                  ],
+                },
+                "displayName": "Utilities__TextMuted",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={
+              Object {
+                "flexBasis": "25%",
+                "textAlign": "center",
+              }
+            }
+          >
+            <span
+              className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+              style={
+                Object {
+                  "flexBasis": "25%",
+                  "textAlign": "center",
+                }
+              }
+            >
+              CATEGORY 
+              5
+              :
+            </span>
+          </StyledComponent>
+        </Utilities__TextMuted>
+        <input
+          id="cat-5"
+          name="category-4"
+          onChange={[Function]}
+          style={
+            Object {
+              "flexBasis": "60%",
+              "width": "auto",
+            }
+          }
+          type="text"
+          value="porro"
+        />
+      </label>
+    </div>
+    <div
+      key="cat-6"
+    >
+      <h4>
+        Double Jeopardy
+      </h4>
+      <label
+        htmlFor="category-5"
+        style={
+          Object {
+            "flexDirection": "row",
+            "width": "100%",
+          }
+        }
+      >
+        <Utilities__TextMuted
+          style={
+            Object {
+              "flexBasis": "25%",
+              "textAlign": "center",
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Utilities__TextMuted-s11g5i-2",
+                  "isStatic": false,
+                  "lastClassName": "biOppA",
+                  "rules": Array [
+                    "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                  ],
+                },
+                "displayName": "Utilities__TextMuted",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={
+              Object {
+                "flexBasis": "25%",
+                "textAlign": "center",
+              }
+            }
+          >
+            <span
+              className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+              style={
+                Object {
+                  "flexBasis": "25%",
+                  "textAlign": "center",
+                }
+              }
+            >
+              CATEGORY 
+              6
+              :
+            </span>
+          </StyledComponent>
+        </Utilities__TextMuted>
+        <input
+          id="cat-6"
+          name="category-5"
+          onChange={[Function]}
+          style={
+            Object {
+              "flexBasis": "60%",
+              "width": "auto",
+            }
+          }
+          type="text"
+          value="reprehenderit"
+        />
+      </label>
+    </div>
+    <div
+      key="cat-7"
+    >
+      <label
+        htmlFor="category-6"
+        style={
+          Object {
+            "flexDirection": "row",
+            "width": "100%",
+          }
+        }
+      >
+        <Utilities__TextMuted
+          style={
+            Object {
+              "flexBasis": "25%",
+              "textAlign": "center",
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Utilities__TextMuted-s11g5i-2",
+                  "isStatic": false,
+                  "lastClassName": "biOppA",
+                  "rules": Array [
+                    "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                  ],
+                },
+                "displayName": "Utilities__TextMuted",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={
+              Object {
+                "flexBasis": "25%",
+                "textAlign": "center",
+              }
+            }
+          >
+            <span
+              className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+              style={
+                Object {
+                  "flexBasis": "25%",
+                  "textAlign": "center",
+                }
+              }
+            >
+              CATEGORY 
+              7
+              :
+            </span>
+          </StyledComponent>
+        </Utilities__TextMuted>
+        <input
+          id="cat-7"
+          name="category-6"
+          onChange={[Function]}
+          style={
+            Object {
+              "flexBasis": "60%",
+              "width": "auto",
+            }
+          }
+          type="text"
+          value="iure"
+        />
+      </label>
+    </div>
+    <div
+      key="cat-8"
+    >
+      <label
+        htmlFor="category-7"
+        style={
+          Object {
+            "flexDirection": "row",
+            "width": "100%",
+          }
+        }
+      >
+        <Utilities__TextMuted
+          style={
+            Object {
+              "flexBasis": "25%",
+              "textAlign": "center",
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Utilities__TextMuted-s11g5i-2",
+                  "isStatic": false,
+                  "lastClassName": "biOppA",
+                  "rules": Array [
+                    "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                  ],
+                },
+                "displayName": "Utilities__TextMuted",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={
+              Object {
+                "flexBasis": "25%",
+                "textAlign": "center",
+              }
+            }
+          >
+            <span
+              className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+              style={
+                Object {
+                  "flexBasis": "25%",
+                  "textAlign": "center",
+                }
+              }
+            >
+              CATEGORY 
+              8
+              :
+            </span>
+          </StyledComponent>
+        </Utilities__TextMuted>
+        <input
+          id="cat-8"
+          name="category-7"
+          onChange={[Function]}
+          style={
+            Object {
+              "flexBasis": "60%",
+              "width": "auto",
+            }
+          }
+          type="text"
+          value="earum"
+        />
+      </label>
+    </div>
+    <div
+      key="cat-9"
+    >
+      <label
+        htmlFor="category-8"
+        style={
+          Object {
+            "flexDirection": "row",
+            "width": "100%",
+          }
+        }
+      >
+        <Utilities__TextMuted
+          style={
+            Object {
+              "flexBasis": "25%",
+              "textAlign": "center",
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Utilities__TextMuted-s11g5i-2",
+                  "isStatic": false,
+                  "lastClassName": "biOppA",
+                  "rules": Array [
+                    "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                  ],
+                },
+                "displayName": "Utilities__TextMuted",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={
+              Object {
+                "flexBasis": "25%",
+                "textAlign": "center",
+              }
+            }
+          >
+            <span
+              className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+              style={
+                Object {
+                  "flexBasis": "25%",
+                  "textAlign": "center",
+                }
+              }
+            >
+              CATEGORY 
+              9
+              :
+            </span>
+          </StyledComponent>
+        </Utilities__TextMuted>
+        <input
+          id="cat-9"
+          name="category-8"
+          onChange={[Function]}
+          style={
+            Object {
+              "flexBasis": "60%",
+              "width": "auto",
+            }
+          }
+          type="text"
+          value="dolorem"
+        />
+      </label>
+    </div>
+    <div
+      key="cat-10"
+    >
+      <label
+        htmlFor="category-9"
+        style={
+          Object {
+            "flexDirection": "row",
+            "width": "100%",
+          }
+        }
+      >
+        <Utilities__TextMuted
+          style={
+            Object {
+              "flexBasis": "25%",
+              "textAlign": "center",
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Utilities__TextMuted-s11g5i-2",
+                  "isStatic": false,
+                  "lastClassName": "biOppA",
+                  "rules": Array [
+                    "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                  ],
+                },
+                "displayName": "Utilities__TextMuted",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={
+              Object {
+                "flexBasis": "25%",
+                "textAlign": "center",
+              }
+            }
+          >
+            <span
+              className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+              style={
+                Object {
+                  "flexBasis": "25%",
+                  "textAlign": "center",
+                }
+              }
+            >
+              CATEGORY 
+              10
+              :
+            </span>
+          </StyledComponent>
+        </Utilities__TextMuted>
+        <input
+          id="cat-10"
+          name="category-9"
+          onChange={[Function]}
+          style={
+            Object {
+              "flexBasis": "60%",
+              "width": "auto",
+            }
+          }
+          type="text"
+          value="atque"
+        />
+      </label>
+    </div>
+    <div
+      key="cat-11"
+    >
+      <h4>
+        Final Jeopardy
+      </h4>
+      <label
+        htmlFor="category-10"
+        style={
+          Object {
+            "flexDirection": "row",
+            "width": "100%",
+          }
+        }
+      >
+        <Utilities__TextMuted
+          style={
+            Object {
+              "flexBasis": "25%",
+              "textAlign": "center",
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Utilities__TextMuted-s11g5i-2",
+                  "isStatic": false,
+                  "lastClassName": "biOppA",
+                  "rules": Array [
+                    "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                  ],
+                },
+                "displayName": "Utilities__TextMuted",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={
+              Object {
+                "flexBasis": "25%",
+                "textAlign": "center",
+              }
+            }
+          >
+            <span
+              className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+              style={
+                Object {
+                  "flexBasis": "25%",
+                  "textAlign": "center",
+                }
+              }
+            >
+              CATEGORY 
+              11
+              :
+            </span>
+          </StyledComponent>
+        </Utilities__TextMuted>
+        <input
+          id="cat-11"
+          name="category-10"
+          onChange={[Function]}
+          style={
+            Object {
+              "flexBasis": "60%",
+              "width": "auto",
+            }
+          }
+          type="text"
+          value="ea"
+        />
+      </label>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "0 auto",
+        }
+      }
+    >
+      <Utilities__TextMuted
+        data-test="category-names-save-confirmation"
+        hidden={true}
+      >
+        <StyledComponent
+          data-test="category-names-save-confirmation"
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Utilities__TextMuted-s11g5i-2",
+                "isStatic": false,
+                "lastClassName": "biOppA",
+                "rules": Array [
+                  "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                ],
+              },
+              "displayName": "Utilities__TextMuted",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+              "target": "span",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          hidden={true}
+        >
+          <span
+            className="Utilities__TextMuted-s11g5i-2 biOppA"
+            data-test="category-names-save-confirmation"
+            hidden={true}
+          >
+            Category Names Saved!
+          </span>
+        </StyledComponent>
+      </Utilities__TextMuted>
+      <Button
+        primary={true}
+        style={
+          Object {
+            "margin": "1rem auto 2rem",
+          }
+        }
+        type="submit"
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "jSaPjy",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          primary={true}
+          style={
+            Object {
+              "margin": "1rem auto 2rem",
+            }
+          }
+          type="submit"
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 jSaPjy"
+            style={
+              Object {
+                "margin": "1rem auto 2rem",
+              }
+            }
+            type="submit"
+          >
+            Save Category Names
+          </button>
+        </StyledComponent>
+      </Button>
+      <Utilities__Divider>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Utilities__Divider-s11g5i-5",
+                "isStatic": true,
+                "lastClassName": "jrubw",
+                "rules": Array [
+                  "width:80%;opacity:0.5;margin:1rem auto;",
+                ],
+              },
+              "displayName": "Utilities__Divider",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Utilities__Divider-s11g5i-5",
+              "target": "hr",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <hr
+            className="Utilities__Divider-s11g5i-5 jrubw"
+          />
+        </StyledComponent>
+      </Utilities__Divider>
+    </div>
+  </fieldset>
+</form>
+`;

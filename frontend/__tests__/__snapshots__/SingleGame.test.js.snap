@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameListItem/> renders and matches the snapshot 1`] = `
+<ListItem__LeftListItem
+  key="GAMEID12345"
+>
+  <Link
+    href={
+      Object {
+        "pathname": "/setup",
+        "query": Object {
+          "game": "Awesome Game",
+        },
+      }
+    }
+  >
+    <a>
+      <h4>
+        Awesome Game
+      </h4>
+      <GameStatus
+        gameName="Awesome Game"
+      />
+      <p>
+        <small>
+          March 26, 2019 10:48 pm
+        </small>
+      </p>
+    </a>
+  </Link>
+  <DeleteGame
+    gameName="Awesome Game"
+  >
+    <CloseSquareO />
+  </DeleteGame>
+</ListItem__LeftListItem>
+`;

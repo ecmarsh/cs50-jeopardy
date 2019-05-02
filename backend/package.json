@@ -1,0 +1,54 @@
+{
+  "name": "jeopardy-backend",
+  "version": "1.0.0",
+  "description": "CS50 Jeopardy - Final Project -- Backend",
+  "scripts": {
+    "start": "nodemon -e js,graphql -x node src/index.js",
+    "dev": "nodemon -e js,graphql -x node --inspect src/index.js",
+    "test": "jest",
+    "deploy": "prisma deploy --env-file variables.env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethan-marsh/cs50-jeopardy.git"
+  },
+  "keywords": [
+    "cs50",
+    "jeopardy",
+    "prisma",
+    "graphql",
+    "yoga"
+  ],
+  "author": "ethan-marsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethan-marsh/cs50-jeopardy/issues"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^6.2.0",
+    "graphql": "^0.13.2",
+    "graphql-cli": "^2.16.7",
+    "graphql-yoga": "1.16.2",
+    "jsonwebtoken": "^8.5.0",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.10",
+    "npm-run-all": "^4.1.5",
+    "prisma": "^1.28.3",
+    "prisma-binding": "^2.3.6",
+    "request": "^2.88.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.2",
+    "eslint-config-prettier": "^4.1.0",
+    "prettier": "^1.16.4"
+  }
+}

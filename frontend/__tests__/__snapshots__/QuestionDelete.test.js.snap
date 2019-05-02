@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuestionDelete/> renders the delete button and matches snapshot 1`] = `
+<Button
+  close={true}
+  onClick={[Function]}
+>
+  <StyledComponent
+    close={true}
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Button-sc-1f1w3gq-0",
+          "isStatic": false,
+          "lastClassName": "gYMyMN",
+          "rules": Array [
+            "font-family:",
+            [Function],
+            ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+            [Function],
+            " auto 3px;}",
+            [Function],
+            " ",
+            [Function],
+            " ",
+            [Function],
+            " ",
+            [Function],
+            " ",
+            [Function],
+            " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+            [Function],
+            "}",
+            [Function],
+          ],
+        },
+        "displayName": "Button",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Button-sc-1f1w3gq-0",
+        "target": "button",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    onClick={[Function]}
+  >
+    <button
+      className="Button-sc-1f1w3gq-0 gYMyMN"
+      onClick={[Function]}
+    >
+      ❌
+    </button>
+  </StyledComponent>
+</Button>
+`;

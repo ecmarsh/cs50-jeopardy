@@ -1,0 +1,5 @@
+node_modules
+variables.env
+.vscode/
+notes.md
+TODO.md

@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Categories paginated renders pagination for 11 categories 1`] = `
+Array [
+  <Paginated__PaginationStyled
+    data-test="pagination"
+  >
+    <StyledComponent
+      data-test="pagination"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Paginated__PaginationStyled-sc-1sq5ena-0",
+            "isStatic": false,
+            "lastClassName": "cfduEE",
+            "rules": Array [
+              "display:flex;justify-content:space-around;align-items:baseline;padding:1rem 20%;margin:0 auto;line-height:1;a,a:visited{border:0px solid ",
+              [Function],
+              ";min-height:100%;font-size:smaller;color:",
+              [Function],
+              ";&[aria-disabled='true']{visibility:hidden;}span{padding:0 3px;transform:translate3d(0,0,0);display:inline-block;opacity:1;transition:transform 0.2s cubic-bezier(0.04,1.16,0.96,1.03);}}a.prev{order:0;&:hover{span{transform:translate3d(-3px,0,0);}}}a.next{order:2;&:hover{span{transform:translate3d(3px,0,0);}}}h2,h3,h4,h5{order:1;}",
+              [Function],
+            ],
+          },
+          "displayName": "Paginated__PaginationStyled",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Paginated__PaginationStyled-sc-1sq5ena-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="Paginated__PaginationStyled-sc-1sq5ena-0 cfduEE"
+        data-test="pagination"
+      >
+        <h4
+          data-test="pagination-round"
+        >
+          Single Jeopardy
+        </h4>
+        <Link
+          href={
+            Object {
+              "pathname": "load",
+              "query": Object {
+                "game": "Test Game",
+                "round": 1,
+              },
+            }
+          }
+          prefetch={true}
+        >
+          <a
+            aria-disabled={true}
+            className="prev"
+            href="load?game=Test%20Game&round=1"
+            onClick={[Function]}
+          >
+            <span>
+              ←
+            </span>
+            Prev Round
+          </a>
+        </Link>
+        <Link
+          href={
+            Object {
+              "pathname": "load",
+              "query": Object {
+                "game": "Test Game",
+                "round": 2,
+              },
+            }
+          }
+          prefetch={true}
+        >
+          <a
+            aria-disabled={false}
+            className="next"
+            href="load?game=Test%20Game&round=2"
+            onClick={[Function]}
+          >
+            Next Round
+            <span>
+              →
+            </span>
+          </a>
+        </Link>
+      </div>
+    </StyledComponent>
+  </Paginated__PaginationStyled>,
+  <StyledComponent
+    data-test="pagination"
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Paginated__PaginationStyled-sc-1sq5ena-0",
+          "isStatic": false,
+          "lastClassName": "cfduEE",
+          "rules": Array [
+            "display:flex;justify-content:space-around;align-items:baseline;padding:1rem 20%;margin:0 auto;line-height:1;a,a:visited{border:0px solid ",
+            [Function],
+            ";min-height:100%;font-size:smaller;color:",
+            [Function],
+            ";&[aria-disabled='true']{visibility:hidden;}span{padding:0 3px;transform:translate3d(0,0,0);display:inline-block;opacity:1;transition:transform 0.2s cubic-bezier(0.04,1.16,0.96,1.03);}}a.prev{order:0;&:hover{span{transform:translate3d(-3px,0,0);}}}a.next{order:2;&:hover{span{transform:translate3d(3px,0,0);}}}h2,h3,h4,h5{order:1;}",
+            [Function],
+          ],
+        },
+        "displayName": "Paginated__PaginationStyled",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Paginated__PaginationStyled-sc-1sq5ena-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <div
+      className="Paginated__PaginationStyled-sc-1sq5ena-0 cfduEE"
+      data-test="pagination"
+    >
+      <h4
+        data-test="pagination-round"
+      >
+        Single Jeopardy
+      </h4>
+      <Link
+        href={
+          Object {
+            "pathname": "load",
+            "query": Object {
+              "game": "Test Game",
+              "round": 1,
+            },
+          }
+        }
+        prefetch={true}
+      >
+        <a
+          aria-disabled={true}
+          className="prev"
+          href="load?game=Test%20Game&round=1"
+          onClick={[Function]}
+        >
+          <span>
+            ←
+          </span>
+          Prev Round
+        </a>
+      </Link>
+      <Link
+        href={
+          Object {
+            "pathname": "load",
+            "query": Object {
+              "game": "Test Game",
+              "round": 2,
+            },
+          }
+        }
+        prefetch={true}
+      >
+        <a
+          aria-disabled={false}
+          className="next"
+          href="load?game=Test%20Game&round=2"
+          onClick={[Function]}
+        >
+          Next Round
+          <span>
+            →
+          </span>
+        </a>
+      </Link>
+    </div>
+  </StyledComponent>,
+  <div
+    className="Paginated__PaginationStyled-sc-1sq5ena-0 cfduEE"
+    data-test="pagination"
+  >
+    <h4
+      data-test="pagination-round"
+    >
+      Single Jeopardy
+    </h4>
+    <Link
+      href={
+        Object {
+          "pathname": "load",
+          "query": Object {
+            "game": "Test Game",
+            "round": 1,
+          },
+        }
+      }
+      prefetch={true}
+    >
+      <a
+        aria-disabled={true}
+        className="prev"
+        href="load?game=Test%20Game&round=1"
+        onClick={[Function]}
+      >
+        <span>
+          ←
+        </span>
+        Prev Round
+      </a>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "load",
+          "query": Object {
+            "game": "Test Game",
+            "round": 2,
+          },
+        }
+      }
+      prefetch={true}
+    >
+      <a
+        aria-disabled={false}
+        className="next"
+        href="load?game=Test%20Game&round=2"
+        onClick={[Function]}
+      >
+        Next Round
+        <span>
+          →
+        </span>
+      </a>
+    </Link>
+  </div>,
+]
+`;

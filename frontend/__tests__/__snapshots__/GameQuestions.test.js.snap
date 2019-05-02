@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game Questions in Single Category renders answered questions correctly and matches snapshot 1`] = `
+<div
+  className="Square__BoardSquare-sc-1qt7ydc-0 DwHwP"
+  data-test="game-question-1"
+>
+  <div
+    onClick={[Function]}
+  >
+    <span
+      className="question-value"
+    >
+      $400
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Game Questions in Single Category renders unanswered questions correctly and matches snapshot 1`] = `
+<div
+  className="Square__BoardSquare-sc-1qt7ydc-0 igrKJz"
+  data-test="game-question-0"
+>
+  <div
+    onClick={[Function]}
+  >
+    <span
+      className="question-value"
+    >
+      $200
+    </span>
+  </div>
+</div>
+`;

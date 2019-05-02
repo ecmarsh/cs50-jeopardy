@@ -1,0 +1,458 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Signup /> renders and matches snapshot 1`] = `
+<form
+  className="Form-qsq7s5-0 bLtDzK"
+  method="POST"
+  onSubmit={[Function]}
+>
+  <DisplayError
+    error={Object {}}
+  />
+  <h2>
+    Create Account
+  </h2>
+  <fieldset
+    aria-busy={false}
+    disabled={false}
+  >
+    <label
+      htmlFor="name"
+    >
+      <input
+        id="name"
+        minLength="2"
+        name="name"
+        onChange={[Function]}
+        placeholder="Name"
+        required={true}
+        type="text"
+        value=""
+      />
+      <Utilities__TextMuted>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Utilities__TextMuted-s11g5i-2",
+                "isStatic": false,
+                "lastClassName": "bdrBqE",
+                "rules": Array [
+                  "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                ],
+              },
+              "displayName": "Utilities__TextMuted",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+              "target": "span",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <span
+            className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+          >
+            Name
+          </span>
+        </StyledComponent>
+      </Utilities__TextMuted>
+    </label>
+    <label
+      htmlFor="email"
+    >
+      <input
+        id="email"
+        name="email"
+        onChange={[Function]}
+        placeholder="Email"
+        required={true}
+        type="email"
+        validate="true"
+        value=""
+      />
+      <Utilities__TextMuted>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Utilities__TextMuted-s11g5i-2",
+                "isStatic": false,
+                "lastClassName": "bdrBqE",
+                "rules": Array [
+                  "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                ],
+              },
+              "displayName": "Utilities__TextMuted",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+              "target": "span",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <span
+            className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+          >
+            Email
+          </span>
+        </StyledComponent>
+      </Utilities__TextMuted>
+    </label>
+    <label
+      htmlFor="password"
+    >
+      <input
+        id="password"
+        name="password"
+        onChange={[Function]}
+        placeholder="Password"
+        required={true}
+        type="password"
+        value=""
+      />
+      <Utilities__TextMuted>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Utilities__TextMuted-s11g5i-2",
+                "isStatic": false,
+                "lastClassName": "bdrBqE",
+                "rules": Array [
+                  "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                ],
+              },
+              "displayName": "Utilities__TextMuted",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+              "target": "span",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <span
+            className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+          >
+            Password
+          </span>
+        </StyledComponent>
+      </Utilities__TextMuted>
+    </label>
+    <label
+      htmlFor="access"
+    >
+      <select
+        defaultValue="basic"
+        id="access"
+        name="access"
+        onChange={[Function]}
+        required={true}
+        style={
+          Object {
+            "minHeight": "3.5rem",
+            "minWidth": "27rem",
+          }
+        }
+      >
+        <option
+          value="basic"
+        >
+          Basic
+        </option>
+        <option
+          value="moderator"
+        >
+          Moderator
+        </option>
+      </select>
+      <Utilities__TextMuted>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Utilities__TextMuted-s11g5i-2",
+                "isStatic": false,
+                "lastClassName": "bdrBqE",
+                "rules": Array [
+                  "opacity:0.8;font-size:0.8em;display:inline;opacity:1;transition:opacity 0.3s ease-in-out;",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                ],
+              },
+              "displayName": "Utilities__TextMuted",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Utilities__TextMuted-s11g5i-2",
+              "target": "span",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <span
+            className="Utilities__TextMuted-s11g5i-2 bdrBqE"
+          >
+            Account Type
+          </span>
+        </StyledComponent>
+      </Utilities__TextMuted>
+    </label>
+    <Form__Extension>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Form__Extension-qsq7s5-1",
+              "isStatic": false,
+              "lastClassName": "enwYgf",
+              "rules": Array [
+                "display:flex;justify-content:space-between;min-width:22rem;max-width:30rem;margin:0 auto;.helper-text{font-size:1.2rem;text-align:left;transform:translateX(10%);color:",
+                [Function],
+                ";}",
+              ],
+            },
+            "displayName": "Form__Extension",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Form__Extension-qsq7s5-1",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="Form__Extension-qsq7s5-1 enwYgf"
+        >
+          <div
+            className="helper-text"
+          >
+            <ul>
+              <li>
+                <strong>
+                  Basic: 
+                </strong>
+                 Submit questions and play published games.
+              </li>
+              <li>
+                <strong>
+                  Moderator: 
+                </strong>
+                 Basic access, plus game creation.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </StyledComponent>
+    </Form__Extension>
+    <Button
+      className="block"
+      primary={true}
+      type="submit"
+    >
+      <StyledComponent
+        className="block"
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Button-sc-1f1w3gq-0",
+              "isStatic": false,
+              "lastClassName": "kpEvwZ",
+              "rules": Array [
+                "font-family:",
+                [Function],
+                ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                [Function],
+                " auto 3px;}",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                [Function],
+                "}",
+                [Function],
+              ],
+            },
+            "displayName": "Button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Button-sc-1f1w3gq-0",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        primary={true}
+        type="submit"
+      >
+        <button
+          className="block Button-sc-1f1w3gq-0 jSaPjy"
+          type="submit"
+        >
+          Create Account
+        </button>
+      </StyledComponent>
+    </Button>
+    <Form__Extension>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Form__Extension-qsq7s5-1",
+              "isStatic": false,
+              "lastClassName": "enwYgf",
+              "rules": Array [
+                "display:flex;justify-content:space-between;min-width:22rem;max-width:30rem;margin:0 auto;.helper-text{font-size:1.2rem;text-align:left;transform:translateX(10%);color:",
+                [Function],
+                ";}",
+              ],
+            },
+            "displayName": "Form__Extension",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Form__Extension-qsq7s5-1",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="Form__Extension-qsq7s5-1 enwYgf"
+        >
+          <Link
+            href={
+              Object {
+                "pathname": "signin",
+              }
+            }
+          >
+            <Button
+              onClick={[Function]}
+              tertiary={true}
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Button-sc-1f1w3gq-0",
+                      "isStatic": false,
+                      "lastClassName": "kpEvwZ",
+                      "rules": Array [
+                        "font-family:",
+                        [Function],
+                        ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                        [Function],
+                        " auto 3px;}",
+                        [Function],
+                        " ",
+                        [Function],
+                        " ",
+                        [Function],
+                        " ",
+                        [Function],
+                        " ",
+                        [Function],
+                        " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                        [Function],
+                        "}",
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Button",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "Button-sc-1f1w3gq-0",
+                    "target": "button",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                onClick={[Function]}
+                tertiary={true}
+              >
+                <button
+                  className="Button-sc-1f1w3gq-0 kpEvwZ"
+                  onClick={[Function]}
+                >
+                  Have An Account? Sign In
+                </button>
+              </StyledComponent>
+            </Button>
+          </Link>
+        </div>
+      </StyledComponent>
+    </Form__Extension>
+  </fieldset>
+</form>
+`;

@@ -1,0 +1,474 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameControls /> renders game controls and matches snapshot for owner game 1`] = `
+<div
+  className="inner"
+  data-test="game-control-bar"
+>
+  <Link
+    href={
+      Object {
+        "pathname": "launch",
+        "query": Object {
+          "game": "Test Game",
+        },
+      }
+    }
+  >
+    <a
+      href="launch?game=Test%20Game"
+      onClick={[Function]}
+    >
+       ◁ Back to Edit Game
+    </a>
+  </Link>
+  <GameReset
+    gameName="Test Game"
+    hasDoubleJeopardy={false}
+  >
+    <Mutation
+      mutation={
+        Object {
+          "definitions": Array [
+            Object {
+              "directives": Array [],
+              "kind": "OperationDefinition",
+              "name": Object {
+                "kind": "Name",
+                "value": "GAME_RESET_MUTATION",
+              },
+              "operation": "mutation",
+              "selectionSet": Object {
+                "kind": "SelectionSet",
+                "selections": Array [
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [
+                      Object {
+                        "kind": "Argument",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "name",
+                        },
+                        "value": Object {
+                          "kind": "Variable",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "gameName",
+                          },
+                        },
+                      },
+                    ],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "resetGame",
+                    },
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "id",
+                          },
+                          "selectionSet": undefined,
+                        },
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "teams",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "id",
+                                },
+                                "selectionSet": undefined,
+                              },
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "name",
+                                },
+                                "selectionSet": undefined,
+                              },
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "score",
+                                },
+                                "selectionSet": undefined,
+                              },
+                            ],
+                          },
+                        },
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "categories",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "id",
+                                },
+                                "selectionSet": undefined,
+                              },
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "categoryQuestions",
+                                },
+                                "selectionSet": Object {
+                                  "kind": "SelectionSet",
+                                  "selections": Array [
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "id",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "answered",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                  ],
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    },
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [
+                      Object {
+                        "kind": "Argument",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "gameName",
+                        },
+                        "value": Object {
+                          "kind": "Variable",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "gameName",
+                          },
+                        },
+                      },
+                      Object {
+                        "kind": "Argument",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "hasDoubleJeopardy",
+                        },
+                        "value": Object {
+                          "kind": "Variable",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "hasDoubleJeopardy",
+                          },
+                        },
+                      },
+                    ],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "updateDoubleJeopardy",
+                    },
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "id",
+                          },
+                          "selectionSet": undefined,
+                        },
+                      ],
+                    },
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [
+                      Object {
+                        "arguments": Array [],
+                        "kind": "Directive",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "client",
+                        },
+                      },
+                    ],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "resetBoard",
+                    },
+                    "selectionSet": undefined,
+                  },
+                ],
+              },
+              "variableDefinitions": Array [
+                Object {
+                  "defaultValue": undefined,
+                  "kind": "VariableDefinition",
+                  "type": Object {
+                    "kind": "NonNullType",
+                    "type": Object {
+                      "kind": "NamedType",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "String",
+                      },
+                    },
+                  },
+                  "variable": Object {
+                    "kind": "Variable",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "gameName",
+                    },
+                  },
+                },
+                Object {
+                  "defaultValue": undefined,
+                  "kind": "VariableDefinition",
+                  "type": Object {
+                    "kind": "NamedType",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "Boolean",
+                    },
+                  },
+                  "variable": Object {
+                    "kind": "Variable",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "hasDoubleJeopardy",
+                    },
+                  },
+                },
+              ],
+            },
+          ],
+          "kind": "Document",
+          "loc": Object {
+            "end": 456,
+            "start": 0,
+          },
+        }
+      }
+      update={[Function]}
+      variables={
+        Object {
+          "gameName": "Test Game",
+          "hasDoubleJeopardy": false,
+        }
+      }
+    >
+      <Button
+        onClick={[Function]}
+        tertiary={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "kpEvwZ",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Reset Game
+          </button>
+        </StyledComponent>
+      </Button>
+    </Mutation>
+  </GameReset>
+  <ThemeToggler
+    buttonTxt="Toggle Theme"
+  >
+    <div
+      className="current-theme"
+    >
+      <Button
+        buttonTxt="Toggle Theme"
+        onClick={[Function]}
+        tertiary={true}
+      >
+        <StyledComponent
+          buttonTxt="Toggle Theme"
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1f1w3gq-0",
+                "isStatic": false,
+                "lastClassName": "kpEvwZ",
+                "rules": Array [
+                  "font-family:",
+                  [Function],
+                  ";color:white;border-radius:0.5rem;text-transform:uppercase;letter-spacing:1px;transition:.2s ease;&:hover{cursor:pointer;}&:focus{cursor:pointer;outline:",
+                  [Function],
+                  " auto 3px;}",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " ",
+                  [Function],
+                  " &.button--sound{font-weight:bolder;text-decoration:line-through;&::after{content:\\"❌\\";padding-left:3px;}",
+                  [Function],
+                  "}",
+                  [Function],
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1f1w3gq-0",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          tertiary={true}
+        >
+          <button
+            className="Button-sc-1f1w3gq-0 kpEvwZ"
+            onClick={[Function]}
+          >
+            Toggle Theme
+          </button>
+        </StyledComponent>
+      </Button>
+    </div>
+  </ThemeToggler>
+  <Link
+    href={
+      Object {
+        "pathname": "play",
+        "query": Object {
+          "game": "Test Game",
+          "round": 2,
+        },
+      }
+    }
+  >
+    <a
+      href="play?game=Test%20Game&round=2"
+      onClick={[Function]}
+    >
+       Next Round ▷
+    </a>
+  </Link>
+</div>
+`;

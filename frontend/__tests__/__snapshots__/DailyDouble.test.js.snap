@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DailyDouble /> renders wager form matches daily double snapshot 1`] = `
+<div>
+  <SoundEffect
+    sound="daily-double"
+  />
+  <Loud
+    off={true}
+  >
+    Daily Double!
+  </Loud>
+  <Ease
+    data-test="daily-double-form"
+    onSubmit={[Function]}
+  >
+    <DailyDouble__Field>
+      <label>
+        <p>
+          Set team wager from 
+          $400
+           -
+           
+          $1,000
+        </p>
+        <input
+          max={1000}
+          min={400}
+          onChange={[Function]}
+          step={100}
+          type="number"
+          value={400}
+        />
+      </label>
+      <Button
+        primary={true}
+        type="submit"
+      >
+        Set Wager
+      </Button>
+      <Button
+        className="contrast"
+        onClick={[Function]}
+        tertiary={true}
+        type="button"
+      >
+        Make it a True Daily Double!
+      </Button>
+    </DailyDouble__Field>
+  </Ease>
+</div>
+`;
